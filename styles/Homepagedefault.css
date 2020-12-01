@@ -1,0 +1,285 @@
+		header{
+			background-color: #CA4C4C;
+			color: #fff8ed;
+			height: 200px;
+		}
+		header h1{
+			color:#fff8ed;
+			font-size: 4rem;
+		}
+		h1{
+			font-size: 3rem;
+		}
+		h2{
+			font-size: 2.5rem;
+		}
+		h3{
+			font-size: 2rem;
+			
+		}
+		li{
+			font-size: 2rem;
+		}
+		body{
+			background-color:#fff8ed;
+			font-family: 'Montserrat', sans-serif;
+			font-size:1.75rem;
+			color:#333;
+			margin:0;
+			padding:0;
+        }  
+		nav{
+			background-color: #C4C4C4;
+			text-align:center;
+			color: #333;
+			justify-content: space-evenly;
+			border: solid 1px #333;
+			font-size: 2rem;
+		}
+		a{
+			text-decoration:none;
+			color:#333;
+		}
+		nav a:hover {
+			background-color: #fff8ed;
+		}
+		
+		/* TABLES */
+		th{
+			font-size: 50px;
+			text-align:left;
+		}
+		table, th, td {
+			border: 3px solid #333;
+			border-collapse: collapse;
+			padding:5px;
+		}
+		table {
+			width:100%;
+			padding: 1.25rem;
+			font-size: 40px;
+			border-color: #333;
+			border-width: 5px;
+		}
+		.footer{
+			background-color: #333333;
+			color: #fff8ed;
+			text-align: center;
+			margin: 0;
+			padding: 10px 0;
+			position:relative;
+			width:100%;
+			bottom:0;
+			border:0;
+		}
+		.footer p{
+			margin:0;
+			padding:6px 0;
+		}
+		.cap {
+			text-align:left;
+			font-weight:700;
+		}
+		.tableBorder{
+			margin-top:35px;
+		}
+		.HomeTitle {
+			text-align:center;
+			font-size:3em;
+		}
+		
+		
+		/* Next page*/
+		.NextPage{
+			Margin:40px 0 40px 0;
+			font-weight: 600;
+		}
+		.linkNextPage{
+			color:red;
+		}
+		
+		
+		/* SIDEBARS */
+		.titleBorder {
+			border-left: 12px solid #222;
+			padding-left: 8px;
+		}
+		.borderRed{
+			border-color:#F00;
+		}
+		.borderBlue{
+			border-color:#00F;
+		}
+		.borderGreen {
+			border-color:#008000;
+		}
+		.borderBlack {
+			border-color:#000;
+		}
+		.borderGray {
+			border-color:#808080;
+		}
+		.borderLime {
+			border-color:#00FF00;
+		}
+		.borderPurple {
+			border-color:#800080;
+		}
+		.borderGold {
+			border-color:#FFFF00;
+		}
+		.borderOrange {
+			border-color:#FF7F50;
+		}
+		
+		
+		/* IMG CLASSES */
+		.mainContent img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}		
+		.fullWidthImg{
+			width: 100%;
+			height: auto !important;
+		}
+		.SportsfullWidthImg{
+			width: 100%;
+			height: auto !important;
+		}
+		.space-around {
+			justify-content: space-around;
+			display: flex;
+			padding: 10px 10px 10px 10px;
+		}
+		
+		
+		/* DROP DOWN MENU */
+		.dropbtn {
+			border: none;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 140px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			font-size: 1.5rem;
+			width: 100%;
+		}
+
+		.dropdown-content a {
+			color: #333;
+			padding: 12px 12px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover {background-color: #ddd;}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		.dropdown:hover .dropbtn {background-color: #fff8ed;}
+		
+		
+		/* FORMATTING HEADER TEXT AND IMAGE */
+		.header-name{
+			text-align:center;
+			padding: 20px;
+			font-size:6rem;
+			width:100%;
+			margin-left:-200px
+		}
+		.full-header{
+			overflow:auto;
+			display:flex;
+			align-items:center;
+		}
+		.img-header{
+			float:left;
+			width:200px;
+			height:190px;
+		}	
+			
+		/* COLUMNS/WIDTH OF THE TEXT ON PAGE */
+		.columns{
+			display:flex;
+			max-width:800px;
+			margin:auto;
+			padding-top:2rem;
+		}
+		.column{
+			width:10%;
+		}
+		
+		
+		/* FORM */
+		form {
+			margin: 0 auto;
+			width: 500px;
+			padding: 1em;
+			border: 1px solid #CCC;
+			border-radius: 1em;
+			margin:35px;
+		}
+		.formLi{
+			font-size: 1.5rem;
+		}
+		.FormUl {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		form li + li {
+			margin-top: 1em;
+		}
+
+		form label {
+			display: inline-block;
+			width: 90px;
+			text-align: right;
+		}
+
+		form input, form textarea {
+			font: 1em sans-serif;
+			width: 300px;
+			box-sizing: border-box;
+			border: 1px solid #999;
+		}
+
+		form input:focus, form textarea:focus {
+			border-color: #000;
+		}
+
+		form textarea {
+			vertical-align: top;
+			height: 5em;
+		}
+
+		.button {
+			padding-left: 90px;
+		}
+
+		form button {
+			margin-left: .5em;
+		}
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
