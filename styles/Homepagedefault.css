@@ -8,26 +8,28 @@
 			font-size: 4rem;
 		}
 		h1{
-			font-size: 3rem;
+			font-size: 2.1rem;
 		}
 		h2{
-			font-size: 2.5rem;
+			font-size: 1.8rem;
 		}
 		h3{
-			font-size: 2rem;
+			font-size: 1.5rem;
 			
 		}
 		li{
-			font-size: 2rem;
+			font-size: 1.5rem;
 		}
 		body{
 			background-color:#fff8ed;
 			font-family: 'Montserrat', sans-serif;
-			font-size:1.75rem;
+			font-size:1.4rem;
 			color:#333;
 			margin:0;
 			padding:0;
         }  
+		
+		/* NAV */
 		nav{
 			background-color: #C4C4C4;
 			text-align:center;
@@ -38,15 +40,21 @@
 		}
 		a{
 			text-decoration:none;
-			color:#333;
 		}
 		nav a:hover {
 			background-color: #fff8ed;
 		}
+		nav a{
+			color:#333;
+		}
+		header a{
+			color:#fff8ed;
+		}
+		
 		
 		/* TABLES */
 		th{
-			font-size: 50px;
+			font-size: 36px;
 			text-align:left;
 		}
 		table, th, td {
@@ -55,9 +63,9 @@
 			padding:5px;
 		}
 		table {
-			width:100%;
+			width:80%;
 			padding: 1.25rem;
-			font-size: 40px;
+			font-size: 32px;
 			border-color: #333;
 			border-width: 5px;
 		}
@@ -75,6 +83,9 @@
 		.footer p{
 			margin:0;
 			padding:6px 0;
+		}
+		.contactfooter{
+			margin-top:57px;
 		}
 		.cap {
 			text-align:left;
@@ -194,7 +205,8 @@
 			padding: 20px;
 			font-size:6rem;
 			width:100%;
-			margin-left:-200px
+			margin-left:-200px;
+			color:white;
 		}
 		.full-header{
 			overflow:auto;
@@ -210,7 +222,7 @@
 		/* COLUMNS/WIDTH OF THE TEXT ON PAGE */
 		.columns{
 			display:flex;
-			max-width:800px;
+			max-width:750px;
 			margin:auto;
 			padding-top:2rem;
 		}
